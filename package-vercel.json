@@ -1,0 +1,22 @@
+{
+  "name": "hope-web",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "cd apps/web && npm run build",
+    "dev": "cd apps/web && npm run dev",
+    "start": "cd apps/web && npm run start"
+  },
+  "dependencies": {
+    "next": "^15.5.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.3",
+    "@types/react": "19.1.0",
+    "@types/react-dom": "19.1.1",
+    "eslint": "^9.34.0",
+    "typescript": "5.9.2"
+  }
+}
